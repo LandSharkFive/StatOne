@@ -29,7 +29,7 @@
             double r2 = Util.RSquared(r);
             Console.WriteLine("R2 = {0}", r2);
             Console.WriteLine("Pearson = {0}", Util.Pearson(dx, dy));
-            Console.WriteLine("X2 = {0}", Util.ChiSquared(dx.ToArray(), dy.ToArray()));
+            Console.WriteLine("Chi = {0}", Util.ChiSquared(dx, dy));
         }
     }
 }
